@@ -1,0 +1,84 @@
+/* Theme Switcher */
+
+.theme-container {
+  position: fixed;
+  left: 15px;
+  top: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 300px;
+  background-color: #78787823;
+  padding: 3px;
+  transition: 0.14s;
+  cursor:pointer;
+}
+
+.theme-container:hover {
+  background-color: #78787838;
+}
+
+.theme-container > svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--text-color);
+}
+
+/* Bookmark Like Style Nav */
+
+.nav-item {
+  height: fit-content;
+  transition: all 0.25s;
+  width: 300px;
+  padding: 10px 0px;
+  text-align:center;
+  font-size: 16px;
+  transform: rotate(270deg);
+  position: fixed;
+  font-weight: bold;
+  top: 0;
+  color: var(--nav-text-color);
+}
+
+.nav-item:nth-child(2) {
+  background-color: #a7c957dc;
+  margin-top: -125px;
+  left: -25px;
+}
+
+.nav-item:nth-child(2):hover {
+  margin-top: 80px;
+}
+
+.nav-item:nth-child(3) {
+  background-color: #e09f3edc;
+  margin-top: -105px;
+  left: 20px;
+}
+
+.nav-item:nth-child(3):hover {
+  margin-top: 60px;
+}
+
+.nav-item:nth-child(4) {
+  background-color: #eca7a7dc;
+  left: 65px;
+  margin-top: -135px;
+}
+
+.nav-item:nth-child(4):hover {
+  margin-top: 90px;
+}
+
+.nav-item:nth-child(5) {
+  background-color: #6ae3e6dc;
+  left: 110px;
+  margin-top: -120px;
+}
+
+.nav-item:nth-child(5):hover {
+  margin-top: 75px;
+}
